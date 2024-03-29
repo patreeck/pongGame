@@ -51,10 +51,10 @@ while game_on:
         ball.reset_position()
         ball.bounce_x()
 
-    if scoreBoard.l_score == 1:
+    if scoreBoard.l_score == 10:
         scoreBoard.game_over("LEFT PLAYER")
         game_on = False
-    if scoreBoard.r_score == 1:
+    if scoreBoard.r_score == 10:
         scoreBoard.game_over("RIGHT PLAYER")
         game_on = False
 screen.exitonclick()
